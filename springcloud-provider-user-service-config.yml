@@ -31,8 +31,8 @@ eureka:
     instance-id: springcloud-provider-user-service-8001
     prefer-ip-address: true
 info:
-  app.name: gc-test-platform
-  company.name: www.jeremy.com
+  app.name: springcloud-provider-user-service
+  company.name: www.yxhjeremy.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
 ---
@@ -69,8 +69,8 @@ eureka:
     instance-id: springcloud-provider-user-service-8002
     prefer-ip-address: true
 info:
-  app.name: gc-test-platform
-  company.name: www.jeremy.com
+  app.name: springcloud-provider-user-service
+  company.name: www.yxhjeremy.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
 ---
@@ -108,8 +108,8 @@ eureka:
     prefer-ip-address: true
 
 info:
-  app.name: gc-test-platform
-  company.name: www.jeremy.com
+  app.name: springcloud-provider-user-service
+  company.name: www.yxhjeremy.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
 
