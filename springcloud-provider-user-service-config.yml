@@ -28,7 +28,7 @@ eureka:
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka
   instance:
-    instance-id: gc-test-platform-user-provider-8001
+    instance-id: springcloud-provider-user-service-8001
     prefer-ip-address: true
 info:
   app.name: gc-test-platform
@@ -66,7 +66,7 @@ eureka:
     service-url:
       defaultZone: http://eureka7002.com:7002/eureka
   instance:
-    instance-id: gc-test-platform-user-provider-8002
+    instance-id: springcloud-provider-user-service-8002
     prefer-ip-address: true
 info:
   app.name: gc-test-platform
@@ -104,7 +104,7 @@ eureka:
     service-url:
       defaultZone: http://eureka7003.com:7003/eureka
   instance:
-    instance-id: gc-test-platform-user-provider-8003
+    instance-id: springcloud-provider-user-service-8003
     prefer-ip-address: true
 
 info:
