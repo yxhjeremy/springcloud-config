@@ -11,11 +11,10 @@ spring:
     url: jdbc:mysql://192.168.233.130:8066/gc-user
     username: root
     password: 123!@#qweQWE
-    dbcp2:
-      min-idle: 5                                           # 数据库连接池的最小维持连接数
-      initial-size: 5                                       # 初始化连接数
-      max-total: 5                                          # 最大连接数
-      max-wait-millis: 200                                  # 等待连接获取的最大超时时间
+    initialSize: 5
+    minIdle: 5
+    maxActive: 20
+    maxWait: 60000                                   # 等待连接获取的最大超时时间
 
 mybatis:
   config-location: classpath:mybatis/mybatis-config.xml       # mybatis配置文件所在路径
@@ -49,11 +48,10 @@ spring:
     url: jdbc:mysql://192.168.233.130:8066/gc-user
     username: root
     password: 123!@#qweQWE
-    dbcp2:
-      min-idle: 5                                           # 数据库连接池的最小维持连接数
-      initial-size: 5                                       # 初始化连接数
-      max-total: 5                                          # 最大连接数
-      max-wait-millis: 200                                  # 等待连接获取的最大超时时间
+    initialSize: 5
+    minIdle: 5
+    maxActive: 20
+    maxWait: 60000                                   # 等待连接获取的最大超时时间
 
 mybatis:
   config-location: classpath:mybatis/mybatis-config.xml        # mybatis配置文件所在路径
@@ -87,11 +85,10 @@ spring:
     url: jdbc:mysql://192.168.233.130:8066/gc-user
     username: root
     password: 123!@#qweQWE
-    dbcp2:
-      min-idle: 5                                           # 数据库连接池的最小维持连接数
-      initial-size: 5                                       # 初始化连接数
-      max-total: 5                                          # 最大连接数
-      max-wait-millis: 200                                  # 等待连接获取的最大超时时间
+    initialSize: 5
+    minIdle: 5
+    maxActive: 20
+    maxWait: 60000                                   # 等待连接获取的最大超时时间
 
 mybatis:
   config-location: classpath:mybatis/mybatis-config.xml        # mybatis配置文件所在路径
